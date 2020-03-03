@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
+    <div class="game-board">
+      <div id="aqua" class="color aqua left" data-color="aqua"></div>
+      <div id="purple" class="color purple right" data-color="purple"></div>
+      <div id="pink" class="color pink left" data-color="pink"></div>
+      <div id="green" class="color green right" data-color="green"></div>
+    </div>
+    <div class="circle-center"></div>
+    <div class="second-circle-center"></div>
+    <button id="btnStart" class="btn-start" onclick="startGame()">
+      Play
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
