@@ -135,11 +135,11 @@ class Game {
   }
 
   won() {
-    swal("", "won", "success").then(this.initialize);
+    swal("", "You won", "success").then(this.initialize);
   }
 
   lost() {
-    swal("", "lost", "error").then(() => {
+    swal("", " You lost", "error").then(() => {
       this.removeClickEvents();
       this.initialize();
     });
